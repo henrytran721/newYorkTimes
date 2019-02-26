@@ -1,0 +1,204 @@
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 8fr 1fr 1fr;
+  grid-template-rows: 50px;
+  grid-gap: 10px;
+  justify-content: center;
+  border-bottom: 1px solid #d4d2d1;
+  background-color: white;
+  width: 100%;
+}
+
+.subscribe {
+  grid-column: 5 / 6;
+  background: none;
+  border: none;
+  background-color: #6288a5;
+  color: white;
+  margin-top: 10px;
+  height: 75%;
+  border-radius: 4px;
+}
+
+.space {
+  justify-self: flex-start;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nyt {
+  display: grid;
+  justify-self: center;
+  padding: 10px;
+  margin-right: 200px;
+}
+
+.login {
+  background: none;
+  border: none;
+  background-color: #6288a5;
+  height: 75%;
+  margin-top: 10px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.nyt {
+  grid-column: 4 / 5;
+}
+
+.fa {
+  align-self: center;
+  padding: 15px;
+}
+
+/*flexbox*/
+
+.newYork {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex: 1 1 50%;
+  height: 150px;
+  padding: 50px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.newYork .imageNYT {
+  padding: 20px;
+}
+
+.newYork .fearless {
+  flex-basis: 300px;
+}
+
+.newYork .subscribeToday {
+  flex-basis: 250px;
+}
+
+.fearless {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.subscribeToday {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.subNow {
+  height: 40px;
+  background: none;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.bigBang {
+  display: inline-block;
+  width: 346px;
+  font-size: 1.8em;
+  margin-right: 400px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bigBangContainer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.whiteguy {
+  display: flex;
+  justify-content: center;
+}
+
+.weirdguy {
+  padding: 0 20px;
+}
+
+.description {
+  padding: 0 120px;
+  color: #858483;
+}
+
+.fullText {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 4fr 1fr 4fr;
+}
+
+.middleAlign {
+  grid-column: 2 / 3;
+}
+
+.dennis {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.date {
+  font-family: arial;
+  font-size: 0.8em;
+  float: left;
+}
+
+.socialMedia li {
+  list-style: none;
+  float: right;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.socialMedia button {
+  background: none;
+  border: none;
+  background-color: cornflowerblue;
+  padding: 8px;
+  font-family: avenir;
+  color: white;
+  border-radius: 4px;
+}
+
+.bodyText {
+  clear: both;
+  padding: 0 30px;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.advertisement {
+  background-color: #C1C1D2;
+  grid-row: 2;
+  grid-column: 1 / -1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertisement p {
+  grid-column: 2;
+}
